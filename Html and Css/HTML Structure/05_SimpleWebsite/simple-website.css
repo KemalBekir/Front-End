@@ -1,7 +1,20 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #cccccc;
+    background-color: #CCCCCC;
+}
+
+li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 ul {
@@ -12,43 +25,28 @@ ul {
     list-style: none;
 }
 
-li {
-    display: inline-block;
-    font-size: 24px;
-    line-height: 40px;
-    height: 40px;
-    padding: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
 h1 {
     font-size: 28px;
 }
 
-article header p {
-    font-style: italic;
+.big {
+    font-size: 24px;
 }
 
-article > p{
-    font-size: 24px
+header p {
+    font-style: italic;
 }
 
 section {
     margin-left: 20px;
 }
 
-/* footer {
-    padding: 10px;
-} */
-
-footer > p {
+footer {
     background-color: #444;
-    color: #fff;
+}
+
+footer>p {
     text-align: center;
-    padding:10px;
-    font-size: 24px;
+    color: #fff;
+    padding: 10px;
 }
